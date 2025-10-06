@@ -2,6 +2,8 @@
 import random
 friends = ["Alice","Bob","Charlie","David","Emily"]
 
+length = len(friends)
+print(length)
 #approach 1
 person_pay = random.choice(friends)
 print(f"{person_pay} will pay the bill.")
